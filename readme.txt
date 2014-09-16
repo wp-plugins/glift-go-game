@@ -4,7 +4,7 @@ Donate link: http://gogameguru.com/donate/
 Tags: go game, board games, baduk, igo, weiqi, 围棋, 囲碁, 바둑, Cờ vây, chess
 Requires at least: 2.5
 Tested up to: 4.0.0
-Stable tag: 0.3.9
+Stable tag: 0.4.0
 License: MIT (X11)
 License URI: http://opensource.org/licenses/MIT
 
@@ -57,6 +57,14 @@ Yes, if you previously used EidoGo for WordPress, you have two options:
 Yes, visit [gliftgo.com](http://www.gliftgo.com/ "Glift Go") for more information and sample code.
 
 == Changelog ==
+
+= 0.4.0 =
+* Feature - Glift upgraded to 0.18.1
+* Fix - Escaping for right brackets fixed
+* Fix - Resizing keeps state for game viewer types
+* Fix - User is automatically scrolled to the top for fullscreen. When closed, 
+        the user is scrolled back.
+* Fix - Increase z-index of the fullscreen div to ensure on top
 
 = 0.3.9 =
 * Feature - Status bar with current move number
@@ -113,5 +121,5 @@ Yes, visit [gliftgo.com](http://www.gliftgo.com/ "Glift Go") for more informatio
 
 == Upgrade Notice ==
 
-= 0.3.9 =
+= 0.4.0 =
 Glift now shows move numbers and allows the reader to view games in full screen mode.
