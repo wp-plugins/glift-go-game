@@ -3,8 +3,8 @@ Contributors: gogameguru
 Donate link: https://gogameguru.com/support/
 Tags: go game, board games, baduk, igo, weiqi, 围棋, 囲碁, 바둑, Cờ vây, chess
 Requires at least: 2.5
-Tested up to: 4.0.0
-Stable tag: 0.5.4
+Tested up to: 4.1.0
+Stable tag: 0.6.1
 License: MIT (X11)
 License URI: http://opensource.org/licenses/MIT
 
@@ -17,6 +17,8 @@ Glift is a JavaScript client for the board game Go, which you can use to display
 After installing the Glift plugin, you can display game records and other Go content in your posts and pages by uploading them to the media library and using the Glift shortcode in your posts.
 
 For example: [glift sgf="https://gogameguru.com/.com/i/glift/example.sgf"]
+
+Work on this plugin attempts to follow WordPress coding standards as much as possible: https://make.wordpress.org/core/handbook/coding-standards/php/
 
 == Installation ==
 
@@ -58,8 +60,18 @@ Yes, visit [gliftgo.com](http://www.gliftgo.com/ "Glift Go") for more informatio
 
 == Changelog ==
 
+= 0.6.1 =
+* Feature - Add initial support for Go diagrams in WordPress comments
+
+= 0.6.0 =
+* Feature - Add native WordPress settings page (see 'Glift' under settings menu)
+* Feature - Add more options to customize Glift's default appearance 
+* Feature - Add new height and width parameters to [glift] shortcode
+* Fix - Remove support for glift-config.php because WP deletes files on upgrade
+* Fix - Theme names and widget types no longer need to be typed in upper case
+
 = 0.5.4 =
-* Feature - Glift upgraded to 1.0.3
+* Feature - Glift upgraded to 1.0.4
 * Fix - Add support for point rectangles as data in SGF properties.
 
 = 0.5.3 =
@@ -171,5 +183,5 @@ Yes, visit [gliftgo.com](http://www.gliftgo.com/ "Glift Go") for more informatio
 
 == Upgrade Notice ==
 
-= 0.5.4 =
-Glift upgraded to 1.0.4. Add support for point rectangles in SGF properties.
+= 0.6.1 =
+Glift now has a settings page in your WordPress dashboard and you have more options to customize its appearance. Initial support for Go diagrams in comments has also been added (and will become more user friendly in future versions).
