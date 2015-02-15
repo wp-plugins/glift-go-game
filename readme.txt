@@ -1,10 +1,10 @@
 === Glift Go Game ===
 Contributors: gogameguru
-Donate link: http://gogameguru.com/donate/
+Donate link: https://gogameguru.com/support/
 Tags: go game, board games, baduk, igo, weiqi, 围棋, 囲碁, 바둑, Cờ vây, chess
 Requires at least: 2.5
 Tested up to: 4.0.0
-Stable tag: 0.5.3
+Stable tag: 0.5.4
 License: MIT (X11)
 License URI: http://opensource.org/licenses/MIT
 
@@ -16,7 +16,7 @@ Glift is a JavaScript client for the board game Go, which you can use to display
 
 After installing the Glift plugin, you can display game records and other Go content in your posts and pages by uploading them to the media library and using the Glift shortcode in your posts.
 
-For example: [glift sgf="http://gogameguru.com/i/glift/example.sgf"]
+For example: [glift sgf="https://gogameguru.com/.com/i/glift/example.sgf"]
 
 == Installation ==
 
@@ -38,11 +38,11 @@ Congratulations, the Glift plugin is now installed.
 
 = How do you I display a Go game in one of my posts? =
 
-You can embed an SGF file which you've uploaded to the WordPress media library by adding a shortcode like [glift sgf="http://gogameguru.com/i/glift/example.sgf"] in one of your posts. Replace http://gogameguru.com/i/glift/example.sgf with a link to an SGF file which you've uploaded to your own website.
+You can embed an SGF file which you've uploaded to the WordPress media library by adding a shortcode like [glift sgf="https://gogameguru.com/.com/i/glift/example.sgf"] in one of your posts. Replace https://gogameguru.com/.com/i/glift/example.sgf with a link to an SGF file which you've uploaded to your own website.
 
 = Are there more advanced features and options for Glift? =
 
-Yes, visit our [Glift page](http://gogameguru.com/glift/ "Glift Go Game WordPress Plugin") for more advanced examples.
+Yes, visit our [Glift page](https://gogameguru.com/.com/glift/ "Glift Go Game WordPress Plugin") for more advanced examples.
 
 = Is this plugin backwards compatible with the EidoGo for WordPress plugin? =
 
@@ -57,6 +57,10 @@ Yes, if you previously used EidoGo for WordPress, you have two options:
 Yes, visit [gliftgo.com](http://www.gliftgo.com/ "Glift Go") for more information and sample code.
 
 == Changelog ==
+
+= 0.5.4 =
+* Feature - Glift upgraded to 1.0.3
+* Fix - Add support for point rectangles as data in SGF properties.
 
 = 0.5.3 =
 * Feature - Glift upgraded to 1.0.3
@@ -167,5 +171,5 @@ Yes, visit [gliftgo.com](http://www.gliftgo.com/ "Glift Go") for more informatio
 
 == Upgrade Notice ==
 
-= 0.5.3 =
-Glift upgraded to 1.0.3. Add Tygem .gib support and fix keybinding issues.
+= 0.5.4 =
+Glift upgraded to 1.0.4. Add support for point rectangles in SGF properties.
